@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern responsive web design and digital services project">
+  <title>NovaStudio | Digital Solutions</title>
+
+  <!-- Bootstrap CSS framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        <span class="brand-icon">N</span> NovaStudio
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              id="menuToggle"
+              aria-label="Toggle navigation"
+              aria-controls="navMenu"
+              aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-brand" href="#services">Explore Services ↗</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <header class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="eyebrow">
+            ✦ CREATIVE DIGITAL STUDIO
+          </span>
+
+          <h1 class="hero-title mt-4">
+            We build digital
+            <span class="gradient-text">experiences</span>
+            that matter.
+          </h1>
+
+          <p class="hero-description mt-4">
+            We combine creative design, modern technology and smart
+            development to help businesses grow online.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#services" class="btn btn-brand btn-lg">
+              Explore Services →
+            </a>
+            <a href="#about" class="btn btn-outline-dark btn-lg">
+              Learn More
+            </a>
+          </div>
+
+          <div class="hero-stats mt-5">
+            <div>
+              <h3>25+</h3>
+              <p>Projects built</p>
+            </div>
+            <div>
+              <h3>15+</h3>
+              <p>Happy clients</p>
+            </div>
+            <div>
+              <h3>100%</h3>
+              <p>Creative focus</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1100&q=85"
+              alt="Developer working on a modern website"
+              class="hero-image"
+            >
+            <div class="floating-card">
+              <span class="floating-icon">✦</span>
+              <div>
+                <strong>Design meets technology</strong>
+                <p class="mb-0">Ideas into digital reality</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services section: Task 1 -->
+  <section class="section-padding services-section" id="services">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="eyebrow">WHAT WE DO</span>
+        <h2>Our <span class="gradient-text">Services</span></h2>
+        <p>Smart solutions designed for a better digital future.</p>
+      </div>
+
+      <!-- Bootstrap responsive grid -->
+      <div class="row g-4 mt-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="service-card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+              alt="Website analytics dashboard"
+              class="service-image"
+              loading="lazy"
+            >
+            <div class="service-content">
+              <span class="service-number">01 / DESIGN</span>
+              <h3>Web Design</h3>
+              <p>
+                Beautiful, accessible and user-friendly interfaces
+                that make every visit memorable.
+              </p>
+              <a href="#contact" class="service-link">
+                Discover more →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="service-card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+              alt="Frontend developer coding a website"
+              class="service-image"
+              loading="lazy"
+            >
+            <div class="service-content">
+              <span class="service-number">02 / DEVELOPMENT</span>
+              <h3>Web Development</h3>
+              <p>
+                Fast, reliable websites built with modern
+                frontend technologies and best practices.
+              </p>
+              <a href="#contact" class="service-link">
+                Discover more →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="service-card h-100">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+              alt="Data visualization and analytics"
+              class="service-image"
+              loading="lazy"
+            >
+            <div class="service-content">
+              <span class="service-number">03 / STRATEGY</span>
+              <h3>Digital Solutions</h3>
+              <p>
+                Practical digital experiences that simplify
+                tasks and help businesses reach their goals.
+              </p>
+              <a href="#contact" class="service-link">
+                Discover more →
+              </a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About section: responsive layout -->
+  <section class="section-padding about-section" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85"
+            alt="Creative team collaborating on a project"
+            class="about-image"
+            loading="lazy"
+          >
+        </div>
+
+        <div class="col-lg-6">
+          <span class="eyebrow">WHY NOVASTUDIO?</span>
+          <h2 class="about-title mt-3">
+            Turning your ideas into something
+            <span class="gradient-text">extraordinary.</span>
+          </h2>
+          <p class="text-secondary mt-3">
+            Great websites should look beautiful on every screen,
+            load efficiently and be simple to use. Our approach
+            combines thoughtful design with responsive development.
+          </p>
+
+          <ul class="feature-list mt-4">
+            <li>✓ Responsive on mobile, tablet and desktop</li>
+            <li>✓ Clean and maintainable code</li>
+            <li>✓ Modern UI with smooth interactions</li>
+            <li>✓ User-focused design approach</li>
+          </ul>
+
+          <a href="#contact" class="btn btn-brand mt-3">
+            Let's Connect →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="section-padding contact-section" id="contact">
+    <div class="container">
+      <div class="contact-box text-center">
+        <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+        <h2>Let's create something amazing.</h2>
+        <p>
+          Have an idea? Send us a message and let's discuss your project.
+        </p>
+        <a href="mailto:hello@example.com" class="btn btn-light btn-lg">
+          Contact Us ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-6">
+          <a href="#home" class="footer-brand">✦ NovaStudio</a>
+          <p class="mb-0 mt-2">Creative ideas. Responsive experiences.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center mb-0">
+        © <span id="year"></span> NovaStudio. Built with HTML, CSS & Bootstrap.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
